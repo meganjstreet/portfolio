@@ -1,0 +1,16 @@
+<div class="container-blue">
+  <h1 class="header-white">PROJECTS</h1>
+  <div class="container-centered-flex">
+    <div class="home-links">
+      <% @projects.each do |project| %>
+      <%= link_to project.title.upcase, project_path(project), class: "home-link text-white"  %>
+      <% end %>
+
+
+    </div>
+  </div>
+  <div class="d-flex">
+
+<%= link_to "HOME", root_path, class: "text-white" %>
+</div>
+</div>
