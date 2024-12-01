@@ -1,19 +1,28 @@
 // Specific CSS for your home-page
 .home-links {
   width: 16vw;
-  h3 {
-    font-weight: 700;
+
+  .home-link {
+    font-weight: 900;
+    font-size: 2vw;
     font-style: italic;
     text-align: left;
     margin-bottom: 24px;
     letter-spacing: 1px;
     transition: transform 0.8s;
+    display: block;
+    text-decoration: none;
+
 
     &:hover {
       transform: translateX(2vw);
-      text-decoration: underline;
+      // text-decoration: underline;
+      cursor: grab;
+
 
     }
+
+
   }
 
 }

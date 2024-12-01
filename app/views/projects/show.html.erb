@@ -1,0 +1,45 @@
+<div class="container-blue">
+  <div class="container-show-landing">
+
+    <h1 class="header-white"><%= @project.title %></h1>
+    <h4 class="subheader-white"><%= @project.subtitle %></h4>
+
+    <!--<div class="grid-2">
+      <div class="container-project-info">
+        <p><%#= @project.description %></p>
+        <p><%#= @project.stack %></p>
+        <p><%#= @project.url %></p>
+
+      </div>
+
+      <%#= cl_image_tag @project.key_visual.key, class: "img-project"%>-->
+  <!--  </div>-->
+    <div class="container-project-image">
+
+        <%#= image_tag "down.png", alt: "text", class: %>
+        <%= cl_image_tag @project.key_visual.key, class: "img-project"%>
+    </div>
+  </div>
+
+<div class="container-project-info">
+  <div class="card-white">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sodales eleifend viverra. Cras ac enim quis quam fringilla efficitur in fringilla dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean ac tortor euismod, efficitur ex a, porttitor risus. Donec sed purus vel arcu eleifend hendrerit. Praesent non molestie dui. Aliquam vel vestibulum sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur feugiat sed tellus quis tristique. Integer id augue a lectus suscipit feugiat.
+
+Sed dictum nibh sed turpis tempor sollicitudin. Cras vulputate efficitur bibendum. Sed vulputate lorem sit amet lectus efficitur rhoncus. Duis vitae bibendum justo, eu laoreet ex. Nam semper neque augue, sed volutpat nibh efficitur ac. Nulla et nisi in nulla semper ullamcorper. Vestibulum non est tincidunt ante tempor cursus. Cras non fringilla velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Aliquam risus metus, posuere suscipit nibh id, fringilla euismod magna. Sed a tellus nisl. Ut finibus viverra tellus vel sodales. Aenean ullamcorper vestibulum maximus. Sed eu velit sapien. Cras imperdiet mauris a augue scelerisque, quis suscipit dolor condimentum. Donec id tellus mi. Sed aliquet mauris ac dui commodo, a accumsan leo rutrum. Suspendisse et lacus magna. Quisque condimentum at quam in vehicula.
+
+Ut tristique bibendum purus, ut laoreet tortor tristique ac. Cras sit amet nunc fermentum, suscipit tortor eget, lacinia lectus. Pellentesque tempus, odio in mollis vestibulum, ipsum augue dignissim enim, in rutrum enim massa in elit. Quisque enim ligula, ultricies eget erat et, feugiat elementum purus. Donec at fermentum mi. Vestibulum ut semper enim, et efficitur nisl. Nulla facilisi.
+  </div>
+
+</div>
+
+<div class="d-flex">
+
+<%= link_to "HOME", root_path, class: "text-white" %>
+<%= link_to "PROJECTS", projects_path, class: "text-white" %>
+</div>
+
+
+
+</div>

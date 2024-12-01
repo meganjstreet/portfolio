@@ -1,0 +1,33 @@
+.header-white {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 5vw;
+  margin: 0;
+
+}
+
+.subheader-white {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2vw;
+  margin: 0;
+  margin-left: 2vw;
+
+}
+
+.header-blue {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 5vw;
+  margin: 0;
+  color: $blue;
+
+}
+
+.text-blue {
+  color: $blue;
+}
+
+.text-white {
+  color: $white;
+}
