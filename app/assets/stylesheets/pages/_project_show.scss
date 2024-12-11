@@ -1,5 +1,31 @@
-.img-project {
-  height: 35vw;
+.img-project-landing {
+  width: 32vw;
+  height: 32vw;
   object-fit: contain;
-  justify-self: end;
+  justify-self: center;
+  align-self: center;
+  position: relative;
+}
+
+.img-project-show {
+  width: 100%;
+  // height: 32vw;
+  object-fit: contain;
+
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 5vw;
+  right: 50%;
+  font-size: 3vw;
+  transition: 1s;
+  &:hover {
+    cursor: grab;
+    transform: scale(1.2);
+  }
+}
+
+.h-100 {
+  height: 100vh;
 }

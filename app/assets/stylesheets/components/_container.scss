@@ -10,6 +10,7 @@
 
 .container-show-landing {
   height: 100vh;
+  position: relative;
 }
 
 .container-white {
@@ -38,8 +39,9 @@
 .container-project-image {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   padding: 4vw;
   flex-grow: 1;
+  height: 72%;
 
 }
